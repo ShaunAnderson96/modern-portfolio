@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -36,6 +37,10 @@ h3 {
 a {
   color: white;
   text-decoration: none;
+}
+
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
 }
 
 header {
